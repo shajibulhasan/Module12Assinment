@@ -158,7 +158,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
       }
       setState(() {
         _result = formatted;
-        _expression = formatted; 
+        _expression = formatted;
       });
     } catch (e) {
       setState(() {
